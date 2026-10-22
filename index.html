@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+         <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    <div class="container">
+        <header>
+            <div class="profile-pic">
+                <img src="image.jpg" alt="Mickaela B. Dolfo">
+            </div>
+        
+            <h1>Mickaela B. Dolfo</h1>
+            <p>IT Student & Developer | Quezon City, Philippines</p>
+        </header>
+
+
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm an Information Technology student based in Quezon City, Philippines. I'm passionate about software development, blockchain technology, and creating innovative solutions that make a difference.</p>
+            <br>
+            <p>I chose this course because why not coconut? If you want to know me just e4.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Programming Languages</h3>
+                    <p>C++, Python, JavaScript, HTML/CSS</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>Frontend & Backend Development, Responsive Design</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Database Management</h3>
+                    <p>MySQL, MongoDB, PostgreSQL</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & Technologies</h3>
+                    <p>Git, VS Code, Blockchain Basics, Research Tools</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Portfolio</h3>
+                    <p>A research project exploring how blockchain technology can secure academic records and certificates in educational institutions.</p>
+                    <ul>
+                        <li>Implemented smart contract concepts</li>
+                        <li>Designed secure verification system</li>
+                        <li>Conducted user acceptance testing</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>Student Portfolio Website</h3>
+                    <p>A responsive web application showcasing student projects and achievements with modern UI/UX design.</p>
+                    <ul>
+                        <li>Built with HTML, CSS, JavaScript</li>
+                        <li>Mobile-first responsive design</li>
+                        <li>Interactive navigation and animations</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>Environmental Conservation App</h3>
+                    <p>A mobile application promoting environmental awareness and sustainable practices among students.</p>
+                    <ul>
+                        <li>Features tracking and gamification</li>
+                        <li>Community challenges and rewards</li>
+                        <li>Educational content integration</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div style="background: linear-gradient(135deg, #f8c7d1 0%, #e8a6b6 100%); color: #7a525e; padding: 25px; border-radius: 10px;">
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p><strong>University Name</strong> | Bestlink College Quezon City, Philippines</p>
+                <p>Expected Graduation: 2029</p>
+                <br>
+                <p><strong>Relevant Coursework:</strong></p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Data Structures and Algorithms</li>
+                    <li>Database Management Systems</li>
+                    <li>Web Development</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>mickaeladolfo18@mail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Location</h3>
+                    <p>Quezon City, Philippines</p>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/yourprofile</p>
+                </div>
+                <div class="contact-item">
+                    <h3>GitHub</h3>
+                    <p>github.com/kailalala18-source</p>
+                </div>
+            </div>
+        </section>
+
+<section id="exams">
+    <h2>Academic Activities</h2>
+
+    <div class="exam-buttons">
+        <button onclick="showExam('prelim')">Prelim</button>
+        <button onclick="showExam('midterms')">Midterms</button>
+        <button onclick="showExam('finals')">Finals</button>
+    </div>
+
+    <div id="exam-box" class="exam-box">
+        <h3>Welcome!</h3>
+        <p>Choose Prelim, Midterms, or Finals to see the activities.</p>
+    </div>
+
+    <div id="image-viewer" class="image-viewer"
+     onclick="closeFullImage()">
+
+    <button class="close-viewer"
+            onclick="closeFullImage()"
+            aria-label="Close image">
+        &times;
+    </button>
+
+    <img id="full-image" src="" alt="Full view">
+
+    <p>Click anywhere to close</p>
+</div>
+
+</section>
+
+
+        <footer>
+            <p>&copy; 2026 Mickaela B. Dolfo. All rights reserved. | Built with HTML, CSS & Passion</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    
+
+</body>
+
+
+</html>
